@@ -1,3 +1,10 @@
+1. Implement the customer profile screen with at least 6 fields as outlined in the challenge.
+2. Set up the backend Node.js server with Express to handle CRUD operations.
+3. Integrate the React frontend with the backend API for complete functionality.
+4. Apply relevant design patterns and SOLID principles as specified in the challenge.
+5. Write unit tests for the backend API, ensuring comprehensive coverage.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
