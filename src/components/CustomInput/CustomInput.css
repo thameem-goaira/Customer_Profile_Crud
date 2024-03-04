@@ -1,0 +1,11 @@
+ .input-container {
+    margin: 20px 0;
+ }
+
+ .error {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    left: 5px;
+ }

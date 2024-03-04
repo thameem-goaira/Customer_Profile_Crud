@@ -1,0 +1,77 @@
+.customer-form-card {
+  width: 500px;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.1);
+  background: url('./../../assets/bg.svg') bottom/cover no-repeat fixed;
+
+}
+
+.customer-form-card:hover {
+  transform: scale(1.04);
+  background: white;
+}
+
+.customer-form-card .card-body {
+  padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.profile-icon {
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+  padding: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-icon:hover {
+  transform: scale(1.2);
+}
+
+.customer-form-card h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.profile-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #3f45a7, #7d84e2);
+  border-radius: 5px 5px 20px 20px;
+
+}
+
+.customer-form-card:hover>.profile-icon-container {
+  background: url('./../../assets/bg.svg') center/cover no-repeat fixed;
+
+}
+
+.customer-form-card:hover>.profile-icon-container h2 {
+  color: #4e54c8;
+}
+
+
+.customer-form-card button {
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.customer-form-card button:hover {
+  background: linear-gradient(to bottom, #9ea2ec, #26283e);
+
+}
+
+@media (max-width: 576px) {
+  .customer-form-card {
+    width: 100%;
+  }
+}
